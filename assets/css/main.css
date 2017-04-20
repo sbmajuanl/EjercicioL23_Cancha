@@ -5,31 +5,19 @@
 #content{
   background-color: #8db37d;
   position: relative;
-  width: 1000px;
+  width: 990px;
   height: 540px;
   text-align: center;
 }
 
 .cancha{
   position: absolute;
+  margin: 25px;
   top:0;
   left: 0;
   bottom: 0;
   right: 0;
-  margin: 20px;
-  border: 2px solid white;
-}
-
-.arcoLeft{
-  left: 0;
-  border-width: 2px;
-  border-left: 0;
-}
-
-.arcoRight{
-  right: 0;
-  border-width: 2px;
-  border-right: 0;
+  border: 1px solid white;
 }
 
 .rectangule{
@@ -38,36 +26,28 @@
   width: 130px;
   height: 250px;
   top: 125px;
-  border-style: solid;
-  border-color: white;
+  border: 1px solid white;
 }
 
-.circule-center{
-  position: relative;
+.arcoLeft{
+  left: 0;
+}
+
+.arcoRight{
+  right: 0;
+}
+
+.circule{
+  position: absolute;
   width: 100px;
   height: 100px;
-  margin: 0 auto;
-  top: 220px;
-  border: 2px solid white;
-  border-radius: 50%;
+  left: 429px;
+  top: 190px;
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
-.ball1{
-  top: -2px;
-  right: -10px;
-}
-
-.ball2{
-  top: 80px;
-  left: 40%;
-}
-
-.ball3{
-  bottom: 5px;
-  left: -15px;
-}
-
-.balls{
+.balon{
   position: absolute;
   width: 15px;
   height: 15px;
@@ -75,11 +55,25 @@
   border-radius: 50%;
 }
 
-.texto{
+.balon1{
+  top: -2px;
+  right: -10px;
+}
+
+.balon2{
+  top: 106px;
+  left: 46%;
+}
+.balon3{
+  bottom: 5px;
+  left: -15px;
+}
+
+.info{
   position: absolute;
   bottom: 2px;
-  right: 20px;
-  margin: 0;
+  right: 25px;
   color: rgb(9, 8, 46);
   font-size: 14px;
+  font-weight: bold;
 }
